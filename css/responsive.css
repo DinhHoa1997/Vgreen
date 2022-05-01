@@ -1,0 +1,50 @@
+/* Mobile & Table */
+@media (max-width: 1023px) {}
+
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+/* Table Lanscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    .mm-menu {
+        background: #27562c!important;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    .sendmail__frm
+    {
+        margin-top: 30px;
+    }
+    .left{
+        text-align: left!important;
+    }
+    .footer-block
+    {
+        padding: 0;
+    }
+}
+
+/* Ipad pro */
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    /* .homenews-wrapper .grid-container {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-gap: 30px;
+    } */
+}
+
+
+/* PC LARGE */
+
+@media (min-width: 1919px) {
+    .grid {
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}
